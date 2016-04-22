@@ -55,3 +55,11 @@ let critics = [
     ],
 ]
 
+func euclideanDistance(firstIndex: Int, _ secondIndex: Int) {
+    guard let firstKey = critics.keys[firstIndex], secondKey = critics.keys[secondIndex] else { return }
+    let firstPerson = critics[critics.keys[first]]
+    let secondPerson = critics[second]
+    
+}
+
+euclideanDistance(0, 1)
